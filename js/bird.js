@@ -18,7 +18,7 @@ const addBirdIcon = (num) => {
         // <img src='../images/bird.png'></img>
         const img = document.createElement('img');
         img.setAttribute('class', 'bird-icon');
-        img.setAttribute('src', '../images/bird.png');
+        img.setAttribute('src', 'images/bird.png');
         img.style.position = 'absolute';
         img.style.width = '100px';
 
