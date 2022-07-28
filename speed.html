@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응속도</title>
+    <script src="https://kit.fontawesome.com/3624917c4f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/speed.css">
+    <script src="js/score.js" defer></script>
+    <script src="js/speed.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="/images/logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="todo.html">할일목록</a></li>
+                <li><a href="calc.html">연산게임</a></li>
+                <li><a href="bird.html">앵무잡기</a></li>
+                <li><a href="speed.html">반응속도</a></li>
+            </ul>
+            <a href="#" class="toggleBtn"><i class="fas fa-bars"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="score-container">
+            당신의 반응속도: <span id="result">-</span>
+        </section>
+       <section class="container">
+            <div class="space">
+                <img src="/images/space.png">
+            </div>
+            <div class="contents_box">
+                <p class="start_text">UFO를 눌러 시작!</p>
+                <div class="content wait">           
+                </div>
+                <img class="rocket" src="/images/rocket.png" />
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright © 2022 All Rights Reserved.
+    </footer>
+</body>
+</html>
